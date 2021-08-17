@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,9 @@
 		B0A5684126CAC88000EB92F5 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5684026CAC88000EB92F5 /* ComplicationController.swift */; };
 		B0A5684326CAC88100EB92F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A5684226CAC88100EB92F5 /* Assets.xcassets */; };
 		B0A5684626CAC88100EB92F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A5684526CAC88100EB92F5 /* Preview Assets.xcassets */; };
+		B0A5686426CACC8600EB92F5 /* SiriButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5686326CACC8600EB92F5 /* SiriButtonView.swift */; };
+		B0A5686C26CACCB500EB92F5 /* SiriShortcutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5686B26CACCB500EB92F5 /* SiriShortcutViewController.swift */; };
+		B0A568B126CC162000EB92F5 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A568B026CC162000EB92F5 /* ShortcutManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,9 @@
 		B0A5684526CAC88100EB92F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0A5684726CAC88100EB92F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A5684826CAC88100EB92F5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B0A5686326CACC8600EB92F5 /* SiriButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriButtonView.swift; sourceTree = "<group>"; };
+		B0A5686B26CACCB500EB92F5 /* SiriShortcutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriShortcutViewController.swift; sourceTree = "<group>"; };
+		B0A568B026CC162000EB92F5 /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 		B0A5681A26CAC87D00EB92F5 /* DemoSiri */ = {
 			isa = PBXGroup;
 			children = (
+				B0A5686226CACC6E00EB92F5 /* AddToSiriButton */,
 				B0A5681B26CAC87D00EB92F5 /* DemoSiriApp.swift */,
 				B0A5681D26CAC87D00EB92F5 /* ContentView.swift */,
 				B0A5681F26CAC87F00EB92F5 /* Assets.xcassets */,
@@ -178,6 +185,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B0A5686226CACC6E00EB92F5 /* AddToSiriButton */ = {
+			isa = PBXGroup;
+			children = (
+				B0A5686326CACC8600EB92F5 /* SiriButtonView.swift */,
+				B0A5686B26CACCB500EB92F5 /* SiriShortcutViewController.swift */,
+				B0A568B026CC162000EB92F5 /* ShortcutManager.swift */,
+			);
+			path = AddToSiriButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,6 +213,8 @@
 				B0A5682A26CAC87F00EB92F5 /* PBXTargetDependency */,
 			);
 			name = DemoSiri;
+			packageProductDependencies = (
+			);
 			productName = DemoSiri;
 			productReference = B0A5681826CAC87D00EB92F5 /* DemoSiri.app */;
 			productType = "com.apple.product-type.application";
@@ -255,7 +274,7 @@
 				};
 			};
 			buildConfigurationList = B0A5681326CAC87D00EB92F5 /* Build configuration list for PBXProject "DemoSiri" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -263,6 +282,8 @@
 				Base,
 			);
 			mainGroup = B0A5680F26CAC87D00EB92F5;
+			packageReferences = (
+			);
 			productRefGroup = B0A5681926CAC87D00EB92F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -308,8 +329,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A5686426CACC8600EB92F5 /* SiriButtonView.swift in Sources */,
 				B0A5681E26CAC87D00EB92F5 /* ContentView.swift in Sources */,
+				B0A5686C26CACCB500EB92F5 /* SiriShortcutViewController.swift in Sources */,
 				B0A5681C26CAC87D00EB92F5 /* DemoSiriApp.swift in Sources */,
+				B0A568B126CC162000EB92F5 /* ShortcutManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

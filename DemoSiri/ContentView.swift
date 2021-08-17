@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+  
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            //SiriButtonView()
+            
+            // TODO: Add Intent and voice shortcut?
+        SiriButtonView(intent: FindPharmacyIntent, voiceShortcut: <#T##INVoiceShortcut?#>)
+        
+        }
     }
 }
 
