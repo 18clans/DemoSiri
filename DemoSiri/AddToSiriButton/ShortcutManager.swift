@@ -40,6 +40,7 @@ public final class ShortcutManager {
                 return
             }
             self.voiceShortcuts = voiceShortcutsFromCenter
+            print(self.voiceShortcuts)
         }
     }
     
@@ -92,12 +93,12 @@ public final class ShortcutManager {
     /// Returns the `INVoiceShortcut` for the given store name if a shortcut has already been defined or returns `nil`.
     /// - Parameter store: The name of the store to search for.
     /// - Returns: The requested `INVoiceShortcut` or `nil` if not found.
-    /*public func getAddItemVoiceShortcut(for store:String) -> INVoiceShortcut? {
+    public func getAddItemVoiceShortcut(for store:String) -> INVoiceShortcut? {
         
         // Search all voice shortcuts
         for voiceShorcut in voiceShortcuts {
             if let intent = voiceShorcut.shortcut.intent as? FindPharmacyIntent {
-                if intent.store == store {
+                if intent.description == "Find Closest Network Pharmacy" {
                     // Found
                     return voiceShorcut
                 }
@@ -106,7 +107,7 @@ public final class ShortcutManager {
         
         // Not found
         return nil
-    }*/
+    }
     
     /// Generates an intent of the requested type with the given optional properties.
     /// - Parameters:

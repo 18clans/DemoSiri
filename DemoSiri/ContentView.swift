@@ -6,16 +6,16 @@
 //
 
 import SwiftUI
+import Intents
 
 struct ContentView: View {
-  
     
     var body: some View {
         VStack{
             //SiriButtonView()
             
             // TODO: Add Intent and voice shortcut?
-        SiriButtonView(intent: FindPharmacyIntent, voiceShortcut: <#T##INVoiceShortcut?#>)
+        SiriButtonView(intent: FindPharmacyIntent())
         
         }
     }

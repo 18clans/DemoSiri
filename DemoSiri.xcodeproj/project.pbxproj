@@ -24,6 +24,34 @@
 		B0A5686426CACC8600EB92F5 /* SiriButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5686326CACC8600EB92F5 /* SiriButtonView.swift */; };
 		B0A5686C26CACCB500EB92F5 /* SiriShortcutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5686B26CACCB500EB92F5 /* SiriShortcutViewController.swift */; };
 		B0A568B126CC162000EB92F5 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A568B026CC162000EB92F5 /* ShortcutManager.swift */; };
+		B0F8D85726CC4BFE006B2B07 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F8D85626CC4BFE006B2B07 /* Intents.framework */; };
+		B0F8D85A26CC4BFE006B2B07 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D85926CC4BFE006B2B07 /* IntentHandler.swift */; };
+		B0F8D86226CC4BFE006B2B07 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F8D86126CC4BFE006B2B07 /* IntentsUI.framework */; };
+		B0F8D86526CC4BFE006B2B07 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D86426CC4BFE006B2B07 /* IntentViewController.swift */; };
+		B0F8D86826CC4BFE006B2B07 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F8D86626CC4BFE006B2B07 /* MainInterface.storyboard */; };
+		B0F8D86C26CC4BFE006B2B07 /* FindPharmacyIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B0F8D86026CC4BFE006B2B07 /* FindPharmacyIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B0F8D86F26CC4BFE006B2B07 /* FindPharmacyIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B0F8D85426CC4BFE006B2B07 /* FindPharmacyIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B0F8D87826CC4C61006B2B07 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D87726CC4C61006B2B07 /* Intents.intentdefinition */; };
+		B0F8D87926CC4C61006B2B07 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D87726CC4C61006B2B07 /* Intents.intentdefinition */; };
+		B0F8D87A26CC4C61006B2B07 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D87726CC4C61006B2B07 /* Intents.intentdefinition */; };
+		B0F8D87B26CC53B9006B2B07 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A568B026CC162000EB92F5 /* ShortcutManager.swift */; };
+		B0F8D87C26CC53BA006B2B07 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A568B026CC162000EB92F5 /* ShortcutManager.swift */; };
+		B0F8D87D26CC53C0006B2B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5681D26CAC87D00EB92F5 /* ContentView.swift */; };
+		B0F8D87E26CC53C0006B2B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5681D26CAC87D00EB92F5 /* ContentView.swift */; };
+		B0F8D87F26CC53E7006B2B07 /* SiriShortcutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5686B26CACCB500EB92F5 /* SiriShortcutViewController.swift */; };
+		B0F8D88026CC53E7006B2B07 /* SiriShortcutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5686B26CACCB500EB92F5 /* SiriShortcutViewController.swift */; };
+		B0F8D88126CC54B9006B2B07 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D85926CC4BFE006B2B07 /* IntentHandler.swift */; };
+		B0F8D88226CC54BA006B2B07 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D85926CC4BFE006B2B07 /* IntentHandler.swift */; };
+		B0F8D88326CC54C0006B2B07 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D86426CC4BFE006B2B07 /* IntentViewController.swift */; };
+		B0F8D88426CC54C1006B2B07 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D86426CC4BFE006B2B07 /* IntentViewController.swift */; };
+		B0F8D88726CC594D006B2B07 /* SiriButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5686326CACC8600EB92F5 /* SiriButtonView.swift */; };
+		B0F8D88826CC594D006B2B07 /* SiriButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5686326CACC8600EB92F5 /* SiriButtonView.swift */; };
+		B0F8D88A26CC723F006B2B07 /* FindPharmacyIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D88926CC723F006B2B07 /* FindPharmacyIntentHandler.swift */; };
+		B0F8D88B26CC723F006B2B07 /* FindPharmacyIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D88926CC723F006B2B07 /* FindPharmacyIntentHandler.swift */; };
+		B0F8D88C26CC723F006B2B07 /* FindPharmacyIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D88926CC723F006B2B07 /* FindPharmacyIntentHandler.swift */; };
+		B0F8D88E26CC72A2006B2B07 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D88D26CC72A2006B2B07 /* LocationManager.swift */; };
+		B0F8D88F26CC72A2006B2B07 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D88D26CC72A2006B2B07 /* LocationManager.swift */; };
+		B0F8D89026CC72A2006B2B07 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8D88D26CC72A2006B2B07 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +68,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = B0A5683226CAC88000EB92F5;
 			remoteInfo = "DemoSiri WatchKit Extension";
+		};
+		B0F8D86A26CC4BFE006B2B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0A5681026CAC87D00EB92F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0F8D85F26CC4BFE006B2B07;
+			remoteInfo = FindPharmacyIntentUI;
+		};
+		B0F8D86D26CC4BFE006B2B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0A5681026CAC87D00EB92F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0F8D85326CC4BFD006B2B07;
+			remoteInfo = FindPharmacyIntent;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -64,6 +106,18 @@
 				B0A5682826CAC87F00EB92F5 /* DemoSiri WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F8D87026CC4BFE006B2B07 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B0F8D86F26CC4BFE006B2B07 /* FindPharmacyIntent.appex in Embed App Extensions */,
+				B0F8D86C26CC4BFE006B2B07 /* FindPharmacyIntentUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -91,6 +145,19 @@
 		B0A5686326CACC8600EB92F5 /* SiriButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriButtonView.swift; sourceTree = "<group>"; };
 		B0A5686B26CACCB500EB92F5 /* SiriShortcutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriShortcutViewController.swift; sourceTree = "<group>"; };
 		B0A568B026CC162000EB92F5 /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutManager.swift; sourceTree = "<group>"; };
+		B0F8D85426CC4BFE006B2B07 /* FindPharmacyIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FindPharmacyIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F8D85626CC4BFE006B2B07 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		B0F8D85926CC4BFE006B2B07 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		B0F8D85B26CC4BFE006B2B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F8D86026CC4BFE006B2B07 /* FindPharmacyIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FindPharmacyIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F8D86126CC4BFE006B2B07 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = Library/Frameworks/IntentsUI.framework; sourceTree = DEVELOPER_DIR; };
+		B0F8D86426CC4BFE006B2B07 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		B0F8D86726CC4BFE006B2B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		B0F8D86926CC4BFE006B2B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F8D87726CC4C61006B2B07 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		B0F8D88926CC723F006B2B07 /* FindPharmacyIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPharmacyIntentHandler.swift; sourceTree = "<group>"; };
+		B0F8D88D26CC72A2006B2B07 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B0F8D89326CD42EC006B2B07 /* DemoSiri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoSiri.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,15 +175,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0F8D85126CC4BFD006B2B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F8D85726CC4BFE006B2B07 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F8D85D26CC4BFE006B2B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F8D86226CC4BFE006B2B07 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B0A5680F26CAC87D00EB92F5 = {
 			isa = PBXGroup;
 			children = (
+				B0F8D87726CC4C61006B2B07 /* Intents.intentdefinition */,
 				B0A5681A26CAC87D00EB92F5 /* DemoSiri */,
 				B0A5682B26CAC87F00EB92F5 /* DemoSiri WatchKit App */,
 				B0A5683726CAC88000EB92F5 /* DemoSiri WatchKit Extension */,
+				B0F8D85826CC4BFE006B2B07 /* FindPharmacyIntent */,
+				B0F8D86326CC4BFE006B2B07 /* FindPharmacyIntentUI */,
+				B0F8D85526CC4BFE006B2B07 /* Frameworks */,
 				B0A5681926CAC87D00EB92F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,6 +214,8 @@
 				B0A5681826CAC87D00EB92F5 /* DemoSiri.app */,
 				B0A5682726CAC87F00EB92F5 /* DemoSiri WatchKit App.app */,
 				B0A5683326CAC88000EB92F5 /* DemoSiri WatchKit Extension.appex */,
+				B0F8D85426CC4BFE006B2B07 /* FindPharmacyIntent.appex */,
+				B0F8D86026CC4BFE006B2B07 /* FindPharmacyIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,8 +223,10 @@
 		B0A5681A26CAC87D00EB92F5 /* DemoSiri */ = {
 			isa = PBXGroup;
 			children = (
+				B0F8D89326CD42EC006B2B07 /* DemoSiri.entitlements */,
 				B0A5686226CACC6E00EB92F5 /* AddToSiriButton */,
 				B0A5681B26CAC87D00EB92F5 /* DemoSiriApp.swift */,
+				B0F8D88D26CC72A2006B2B07 /* LocationManager.swift */,
 				B0A5681D26CAC87D00EB92F5 /* ContentView.swift */,
 				B0A5681F26CAC87F00EB92F5 /* Assets.xcassets */,
 				B0A5682426CAC87F00EB92F5 /* Info.plist */,
@@ -192,7 +283,37 @@
 				B0A5686B26CACCB500EB92F5 /* SiriShortcutViewController.swift */,
 				B0A568B026CC162000EB92F5 /* ShortcutManager.swift */,
 			);
-			path = AddToSiriButton;
+			name = AddToSiriButton;
+			path = DemoSiri/AddToSiriButton;
+			sourceTree = SOURCE_ROOT;
+		};
+		B0F8D85526CC4BFE006B2B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0F8D85626CC4BFE006B2B07 /* Intents.framework */,
+				B0F8D86126CC4BFE006B2B07 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0F8D85826CC4BFE006B2B07 /* FindPharmacyIntent */ = {
+			isa = PBXGroup;
+			children = (
+				B0F8D85926CC4BFE006B2B07 /* IntentHandler.swift */,
+				B0F8D85B26CC4BFE006B2B07 /* Info.plist */,
+				B0F8D88926CC723F006B2B07 /* FindPharmacyIntentHandler.swift */,
+			);
+			path = FindPharmacyIntent;
+			sourceTree = "<group>";
+		};
+		B0F8D86326CC4BFE006B2B07 /* FindPharmacyIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				B0F8D86426CC4BFE006B2B07 /* IntentViewController.swift */,
+				B0F8D86626CC4BFE006B2B07 /* MainInterface.storyboard */,
+				B0F8D86926CC4BFE006B2B07 /* Info.plist */,
+			);
+			path = FindPharmacyIntentUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,11 +327,14 @@
 				B0A5681526CAC87D00EB92F5 /* Frameworks */,
 				B0A5681626CAC87D00EB92F5 /* Resources */,
 				B0A5685226CAC88100EB92F5 /* Embed Watch Content */,
+				B0F8D87026CC4BFE006B2B07 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B0A5682A26CAC87F00EB92F5 /* PBXTargetDependency */,
+				B0F8D86B26CC4BFE006B2B07 /* PBXTargetDependency */,
+				B0F8D86E26CC4BFE006B2B07 /* PBXTargetDependency */,
 			);
 			name = DemoSiri;
 			packageProductDependencies = (
@@ -253,13 +377,47 @@
 			productReference = B0A5683326CAC88000EB92F5 /* DemoSiri WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		B0F8D85326CC4BFD006B2B07 /* FindPharmacyIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F8D87626CC4BFE006B2B07 /* Build configuration list for PBXNativeTarget "FindPharmacyIntent" */;
+			buildPhases = (
+				B0F8D85026CC4BFD006B2B07 /* Sources */,
+				B0F8D85126CC4BFD006B2B07 /* Frameworks */,
+				B0F8D85226CC4BFD006B2B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindPharmacyIntent;
+			productName = FindPharmacyIntent;
+			productReference = B0F8D85426CC4BFE006B2B07 /* FindPharmacyIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B0F8D85F26CC4BFE006B2B07 /* FindPharmacyIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F8D87526CC4BFE006B2B07 /* Build configuration list for PBXNativeTarget "FindPharmacyIntentUI" */;
+			buildPhases = (
+				B0F8D85C26CC4BFE006B2B07 /* Sources */,
+				B0F8D85D26CC4BFE006B2B07 /* Frameworks */,
+				B0F8D85E26CC4BFE006B2B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindPharmacyIntentUI;
+			productName = FindPharmacyIntentUI;
+			productReference = B0F8D86026CC4BFE006B2B07 /* FindPharmacyIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B0A5681026CAC87D00EB92F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					B0A5681726CAC87D00EB92F5 = {
@@ -270,6 +428,12 @@
 					};
 					B0A5683226CAC88000EB92F5 = {
 						CreatedOnToolsVersion = 12.2;
+					};
+					B0F8D85326CC4BFD006B2B07 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B0F8D85F26CC4BFE006B2B07 = {
+						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
@@ -291,6 +455,8 @@
 				B0A5681726CAC87D00EB92F5 /* DemoSiri */,
 				B0A5682626CAC87F00EB92F5 /* DemoSiri WatchKit App */,
 				B0A5683226CAC88000EB92F5 /* DemoSiri WatchKit Extension */,
+				B0F8D85326CC4BFD006B2B07 /* FindPharmacyIntent */,
+				B0F8D85F26CC4BFE006B2B07 /* FindPharmacyIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -322,6 +488,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0F8D85226CC4BFD006B2B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F8D85E26CC4BFE006B2B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F8D86826CC4BFE006B2B07 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -329,10 +510,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F8D87826CC4C61006B2B07 /* Intents.intentdefinition in Sources */,
 				B0A5686426CACC8600EB92F5 /* SiriButtonView.swift in Sources */,
+				B0F8D88E26CC72A2006B2B07 /* LocationManager.swift in Sources */,
 				B0A5681E26CAC87D00EB92F5 /* ContentView.swift in Sources */,
 				B0A5686C26CACCB500EB92F5 /* SiriShortcutViewController.swift in Sources */,
+				B0F8D88A26CC723F006B2B07 /* FindPharmacyIntentHandler.swift in Sources */,
+				B0F8D88126CC54B9006B2B07 /* IntentHandler.swift in Sources */,
 				B0A5681C26CAC87D00EB92F5 /* DemoSiriApp.swift in Sources */,
+				B0F8D88426CC54C1006B2B07 /* IntentViewController.swift in Sources */,
 				B0A568B126CC162000EB92F5 /* ShortcutManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +535,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0F8D85026CC4BFD006B2B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F8D88B26CC723F006B2B07 /* FindPharmacyIntentHandler.swift in Sources */,
+				B0F8D88726CC594D006B2B07 /* SiriButtonView.swift in Sources */,
+				B0F8D87926CC4C61006B2B07 /* Intents.intentdefinition in Sources */,
+				B0F8D87B26CC53B9006B2B07 /* ShortcutManager.swift in Sources */,
+				B0F8D88326CC54C0006B2B07 /* IntentViewController.swift in Sources */,
+				B0F8D87D26CC53C0006B2B07 /* ContentView.swift in Sources */,
+				B0F8D85A26CC4BFE006B2B07 /* IntentHandler.swift in Sources */,
+				B0F8D87F26CC53E7006B2B07 /* SiriShortcutViewController.swift in Sources */,
+				B0F8D88F26CC72A2006B2B07 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F8D85C26CC4BFE006B2B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F8D88C26CC723F006B2B07 /* FindPharmacyIntentHandler.swift in Sources */,
+				B0F8D88826CC594D006B2B07 /* SiriButtonView.swift in Sources */,
+				B0F8D87A26CC4C61006B2B07 /* Intents.intentdefinition in Sources */,
+				B0F8D87C26CC53BA006B2B07 /* ShortcutManager.swift in Sources */,
+				B0F8D87E26CC53C0006B2B07 /* ContentView.swift in Sources */,
+				B0F8D86526CC4BFE006B2B07 /* IntentViewController.swift in Sources */,
+				B0F8D88226CC54BA006B2B07 /* IntentHandler.swift in Sources */,
+				B0F8D88026CC53E7006B2B07 /* SiriShortcutViewController.swift in Sources */,
+				B0F8D89026CC72A2006B2B07 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -362,7 +580,28 @@
 			target = B0A5683226CAC88000EB92F5 /* DemoSiri WatchKit Extension */;
 			targetProxy = B0A5683526CAC88000EB92F5 /* PBXContainerItemProxy */;
 		};
+		B0F8D86B26CC4BFE006B2B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0F8D85F26CC4BFE006B2B07 /* FindPharmacyIntentUI */;
+			targetProxy = B0F8D86A26CC4BFE006B2B07 /* PBXContainerItemProxy */;
+		};
+		B0F8D86E26CC4BFE006B2B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0F8D85326CC4BFD006B2B07 /* FindPharmacyIntent */;
+			targetProxy = B0F8D86D26CC4BFE006B2B07 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0F8D86626CC4BFE006B2B07 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F8D86726CC4BFE006B2B07 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B0A5684926CAC88100EB92F5 /* Debug */ = {
@@ -569,8 +808,10 @@
 		B0A5685426CAC88100EB92F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoSiri/DemoSiri.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoSiri/Preview Content\"";
 				DEVELOPMENT_TEAM = 54VJ2643TJ;
@@ -592,8 +833,10 @@
 		B0A5685526CAC88100EB92F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoSiri/DemoSiri.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoSiri/Preview Content\"";
 				DEVELOPMENT_TEAM = 54VJ2643TJ;
@@ -607,6 +850,92 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.navitus.DemoSiri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0F8D87126CC4BFE006B2B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54VJ2643TJ;
+				INFOPLIST_FILE = FindPharmacyIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navitus.DemoSiri.FindPharmacyIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0F8D87226CC4BFE006B2B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54VJ2643TJ;
+				INFOPLIST_FILE = FindPharmacyIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navitus.DemoSiri.FindPharmacyIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0F8D87326CC4BFE006B2B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54VJ2643TJ;
+				INFOPLIST_FILE = FindPharmacyIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navitus.DemoSiri.FindPharmacyIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0F8D87426CC4BFE006B2B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54VJ2643TJ;
+				INFOPLIST_FILE = FindPharmacyIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navitus.DemoSiri.FindPharmacyIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -648,6 +977,24 @@
 			buildConfigurations = (
 				B0A5685426CAC88100EB92F5 /* Debug */,
 				B0A5685526CAC88100EB92F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F8D87526CC4BFE006B2B07 /* Build configuration list for PBXNativeTarget "FindPharmacyIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F8D87326CC4BFE006B2B07 /* Debug */,
+				B0F8D87426CC4BFE006B2B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F8D87626CC4BFE006B2B07 /* Build configuration list for PBXNativeTarget "FindPharmacyIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F8D87126CC4BFE006B2B07 /* Debug */,
+				B0F8D87226CC4BFE006B2B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
