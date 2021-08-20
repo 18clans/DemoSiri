@@ -63,12 +63,8 @@ class FindPharmacyIntentHandler: NSObject, FindPharmacyIntentHandling {
                 pharmacy[0].state = pharmacies[0].state
                 pharmacy[0].zip = pharmacies[0].zip
                 pharmacy[0].phoneNumber = pharmacies[0].phoneNumber
-                
-                let latDouble: Double = pharmacies[0].latitude
-                let latString: String = String(format: "%f", latDouble)
-                
-                //pharmacy[0].latitude = latString
-                //pharmacy[0].longitude = String(pharmacies[0].longitude) as Double?
+                pharmacy[0].latitude = Double(pharmacies[0].latitude) as NSNumber?
+                pharmacy[0].longitude = Double(pharmacies[0].longitude) as NSNumber?
                
                 print(pharmacy)
                 
@@ -76,18 +72,18 @@ class FindPharmacyIntentHandler: NSObject, FindPharmacyIntentHandling {
                 //let activity = NSUserActivity(activityType: activityType)
                 
                 let response = FindPharmacyIntentResponse(code: .success, userActivity: nil)
+                let error = FindPharmacyIntentResponse(code: .failure, userActivity: nil)
 
                 response.result = pharmacy[0]
                 
                 if pharmacy[0].npi != nil {
-                        print(response)
                         completion(response)
                     
                         //completion(.failure(error: "This did not work"))
 
                     } else {
                         //completion(response)
-                        //completion(.failure(error: "This did not work"))
+                        completion(error)
                     }
             }
         }

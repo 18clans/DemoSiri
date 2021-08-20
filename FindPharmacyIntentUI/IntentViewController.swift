@@ -17,6 +17,7 @@ import IntentsUI
 class IntentViewController: UIViewController, INUIHostedViewControlling {
     @IBOutlet weak var pharmName: UILabel!
     @IBOutlet weak var pharmAddress1: UILabel!
+    @IBOutlet weak var pharmAddress2: UILabel!
     @IBOutlet weak var city: UILabel!
     @IBOutlet weak var state: UILabel!
     @IBOutlet weak var zip: UILabel!
@@ -60,8 +61,6 @@ z        if let name = intent.result?.name {
                 self.city.text = response.result?.city
                 self.state.text = response.result?.state
                 self.zip.text = response.result?.zip
-                //self.lat.text = response.result?.latitude
-                
             }
         }
         guard let intent = interaction.intent as? FindPharmacyIntent else {

@@ -54,7 +54,7 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>NaviAssistant</string>
+					<string>DemoSiri</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>RTffw7</string>
 				</dict>
